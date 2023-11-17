@@ -25,14 +25,18 @@ module.exports = {
         hover: "#313131",
         "dark-hover": "#FF0000",
         // Text Color
-        textLight: "#FFFFFF",
+        textLight: "#CAC198",
+        textHeader: "#FFFFFF",
         textDark: "#e9eef4",
         // Faded Color
         textFaded: "#ABABAB",
         "dark-textFaded": "#FF0000",
         // Border Color
         border: "#313131",
-        "dark-border": "#FF0000"
+        "dark-border": "#FF0000",
+
+        sticky: "#E5DBB7",
+        "dark-sticky": ""
 
       },
       gridTemplateColumns: {
