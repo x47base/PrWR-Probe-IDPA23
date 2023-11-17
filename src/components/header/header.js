@@ -8,13 +8,7 @@ export default function Header() {
                 <div className="grid grid-cols-[auto,auto,auto] gap-4 justify-center items-center text-textLight dark:text-textDark font-semibold">
                     <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Home</a>
                     <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Lorem</a>
-                    <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">
-                        <span className="text-white font-semibold">Ipsum</span>
-                        <div className="dropDownContainer">
-                            <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Test 1</a>
-                            <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Test 2</a>
-                        </div>
-                    </a>
+                    <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Ipsum</a>
                 </div>
             </nav>
         </header>
