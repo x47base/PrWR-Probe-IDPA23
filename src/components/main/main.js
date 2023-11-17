@@ -6,9 +6,9 @@ import { BsFillSunFill } from "react-icons/bs";
 /* Other Components */
 import BuildIcon from '../icon/icon';
 
-export default function Main({ }){
+export default function Main(){
     return (
-        <main className="w-full p-2">
+        <main className="w-full p-2 min-h-screen bg-brand">
             <section>
 
                 <div className="min-h-fit">
