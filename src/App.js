@@ -1,9 +1,9 @@
 import './App.css';
 
 /* Base Components */
-import Header from './components/Header/header';
-import Main from './components/Main/main';
-import Footer from './components/Footer/footer';
+import Header from './components/header/header';
+import Main from './components/main/main';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
