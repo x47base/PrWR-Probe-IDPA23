@@ -9,7 +9,6 @@ export default function Header({ }) {
                     <a href="/" target="_self">Home</a>
                     <a href="#" target="_self">Lorem</a>
                     <a href="#" target="_self">Ipsum</a>
-                    
                 </div>
             </nav>
         </header>

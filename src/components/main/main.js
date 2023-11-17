@@ -4,7 +4,7 @@ import './main.css';
 import { BsFillSunFill } from "react-icons/bs";
 
 /* Other Components */
-import BuildIcon from '../Icon/icon';
+import BuildIcon from '../icon/icon';
 
 export default function Main({ }){
     return (
