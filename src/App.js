@@ -1,5 +1,7 @@
 import './App.css';
 
+/* React Components */
+
 /* Base Components */
 import Header from './components/header/header';
 import Main from './components/main/main';

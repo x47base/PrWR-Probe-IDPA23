@@ -36,7 +36,7 @@ module.exports = {
         "dark-border": "#FF0000",
 
         sticky: "#E5DBB7",
-        "dark-sticky": ""
+        "dark-sticky": "#FF00000"
 
       },
       gridTemplateColumns: {
