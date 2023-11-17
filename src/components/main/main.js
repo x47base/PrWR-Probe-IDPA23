@@ -8,7 +8,7 @@ import BuildIcon from '../icon/icon';
 
 export default function Main(){
     return (
-        <main className="w-full p-2 min-h-screen bg-brand">
+        <main className="w-full p-2 min-h-screen bg-background">
             <section>
 
                 <div className="min-h-fit">
