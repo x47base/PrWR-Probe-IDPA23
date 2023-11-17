@@ -11,8 +11,8 @@ export default function Header() {
                     <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">
                         <span className="text-white font-semibold">Ipsum</span>
                         <div className="dropDownContainer">
-                            <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Test 1></a>
-                            <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Test 2></a>
+                            <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Test 1</a>
+                            <a href="/" target="_self" className="text-textLight dark:text-textDark font-semibold">Test 2</a>
                         </div>
                     </a>
                 </div>
