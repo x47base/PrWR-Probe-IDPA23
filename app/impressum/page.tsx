@@ -12,7 +12,6 @@ export default function Home() {
                 </nav>
             </header>
 
-
             <div className="container p-6 px-6 mx-auto ">
                 <div className="mb-16 text-center">
                     <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
