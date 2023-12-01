@@ -1,3 +1,5 @@
+import "next"
+
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -45,7 +47,7 @@ export default function Home() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            Die auf dieser Website präsentierten Informationen dienen ausschließlich dem Zweck, einen Überblick über unsere Gruppenarbeit zum Thema "Römische Wirtschaft" zu geben. Wir übernehmen keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte.
+                            Die auf dieser Website präsentierten Informationen dienen ausschließlich dem Zweck, einen Überblick über unsere Gruppenarbeit zum Thema „Römische Wirtschaft“ zu geben. Wir übernehmen keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte.
                         </p>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
                             Unsere Gruppenarbeit basiert auf Recherchen und Quellen, die zum Zeitpunkt der Erstellung als verlässlich erachtet wurden. Es kann jedoch keine Garantie für die Korrektheit und Aktualität dieser Informationen übernommen werden. Wir behalten uns das Recht vor, ohne vorherige Ankündigung Änderungen oder Ergänzungen der bereitgestellten Informationen vorzunehmen.
