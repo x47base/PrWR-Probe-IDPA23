@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import "next"
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       </header>
 
       <h1>Website zur Römischen Wirtschaft</h1>
-
 
       <footer className="flex flex-col justify-center items-center p-2">
         <div className="flex flex-wrap gap-3 font-normal justify-center items-center">
