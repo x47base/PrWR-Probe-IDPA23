@@ -130,8 +130,13 @@ export default function Home() {
                 </div>
             </div>
 
-
-
+            <footer className="flex flex-col justify-center items-center p-2">
+                <div className="flex flex-wrap gap-3 font-normal justify-center items-center">
+                    <a href="/datenschutz">Datenschutz</a>
+                    <a href="/impressum">Impressum</a>
+                </div>
+                <span className="font-bold">&copy; I2a 2023</span>
+            </footer>
         </main>
     );
 }
