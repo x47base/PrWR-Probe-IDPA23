@@ -25,3 +25,32 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.home-timeline {
+  box-shadow:0px 0px 10px rgba(0,0,0,.5);
+}
+
+.timeline-point{
+  border-color:#000;
+}
+
+.timeline-point:before{
+  position:absolute;
+  content:'';
+  width:10px;
+  height:10px;
+  background-color:#34ace0;
+  border-radius:50%;
+  left:-11px;
+  top:28px;
+  transition:.5s;
+  color:red;
+}
+
+.timeline-point:hover{
+  opacity: 1.0;
+}
+.timeline-point:hover:before{
+  background-color:#0F0;
+  box-shadow:0px 0px 10px 2px #0F0;
+}
