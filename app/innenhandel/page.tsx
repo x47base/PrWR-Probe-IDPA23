@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="flex min-h-screen flex-col items-center justify-between p-24 sm:p-6 md:p-10 lg:p-24">
             <header className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
                 <nav className="fixed left-0 top-0 flex w-full justify-between border-b border-gray-300 bg-gradient-to-b from-zinc-200 p-2 pl-4 pr-4 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     <a href="/" target="_self" className="text-2xl font-extrabold">Römische Wirtschaft</a>
@@ -12,7 +12,7 @@ export default function Home() {
                 </nav>
             </header>
 
-            <div className="container p-6 px-6 mx-auto ">
+            <div className="container p-6 px-6 mx-auto">
                 <div className="mb-16 text-center">
                     <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
                         Handel
@@ -32,7 +32,7 @@ export default function Home() {
                                 Allgemein
                             </div>
                         </div>
-                        <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
+                        <p className="leading-loose text-gray-500 dark:text-gray-200 text-md block">
                             Der Handel spielte gegenüber der Landwirtschaft bis zum 3. Jahrhundert v. Chr. in der Wirtschaft Mittelitaliens eine deutlich untergeordnete Rolle. Erst die im 3. Jahrhundert v. Chr. einsetzende Münzprägung und die zunehmenden Kontakte haben einen grundlegenden Wandel der rückständigen Wirtschaftsstruktur Roms bewirkt.
                             Roms Handelsbilanz war passiv: Es wurde mehr importiert als exportiert, schon in der Frühzeit aus griechischen Kolonien. Rom konnte einen blühenden Handel und eine gute Wirtschaft verzeichnen, wahrscheinlich aus diesem Grunde gab es sogar schon Ansätze für bargeldlosen Zahlungsverkehr.
                             Über den Umfang des Handels sind jedoch nur grobe Schätzungen möglich. Bei einer geschätzten Überlieferung zwischen einem Prozent und einem Promille einst vorhandener Stücke erlauben die dokumentierten Mengen importierter römischer Metall- und Glasgefäße jedoch den Rückschluss auf erhebliche Zahlen.
