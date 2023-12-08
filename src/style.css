@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+    /* Main & Home*/
     .brand {
         @apply text-2xl font-bold;
     }
@@ -30,6 +31,8 @@
     .nav__mobile__links__not__active {
         @apply hidden ease-out duration-300;
     }
+
+    /* Impressum */
 }
 
 body {

@@ -540,6 +540,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+/* Main & Home*/
+
 .brand {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -601,6 +603,8 @@ main section {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+/* Impressum */
+
 .visible {
   visibility: visible;
 }
@@ -611,6 +615,10 @@ main section {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -657,9 +665,13 @@ main section {
   overflow: hidden;
 }
 
-.rounded-b-lg {
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+.hyphens-auto {
+  -webkit-hyphens: auto;
+          hyphens: auto;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .bg-gray-100 {
@@ -670,6 +682,10 @@ main section {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-75 {
+  --tw-bg-opacity: 0.75;
 }
 
 .bg-cover {
@@ -692,6 +708,18 @@ main section {
   padding: 1rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -712,6 +740,11 @@ main section {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-xl {
@@ -741,10 +774,16 @@ main section {
   color: rgb(38 38 38 / var(--tw-text-opacity));
 }
 
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .shadow-lg {
@@ -765,11 +804,31 @@ body {
   .xs\:p-4 {
     padding: 1rem;
   }
+
+  .xs\:p-3 {
+    padding: 0.75rem;
+  }
 }
 
 @media (min-width: 320px) {
   .xs2\:p-3 {
     padding: 0.75rem;
+  }
+
+  .xs2\:p-8 {
+    padding: 2rem;
+  }
+
+  .xs2\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .xs2\:p-4 {
+    padding: 1rem;
+  }
+
+  .xs2\:p-6 {
+    padding: 1.5rem;
   }
 }
 
@@ -780,6 +839,18 @@ body {
 
   .sm\:p-4 {
     padding: 1rem;
+  }
+
+  .sm\:p-12 {
+    padding: 3rem;
+  }
+
+  .sm\:p-8 {
+    padding: 2rem;
+  }
+
+  .sm\:p-10 {
+    padding: 2.5rem;
   }
 }
 
@@ -798,6 +869,14 @@ body {
 
   .md\:p-\[0\.875rem\] {
     padding: 0.875rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
   }
 }
 
