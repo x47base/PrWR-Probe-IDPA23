@@ -1,2 +1,0 @@
-git config user.name "x47base"
-git config user.email "dr.greenjet@gmail.com"
