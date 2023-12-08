@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .brand {
+        @apply text-2xl font-bold;
+    }
+    .nav__links a{
+        @apply font-medium
+        hover:underline hover:underline-offset-4;
+    }
+    .footer__links a{
+        @apply text-base font-normal;
+    }
+    main section {
+        @apply flex justify-center
+        lg:p-4 lg:w-56;
+    }
+    .nav__mobile__active {
+        @apply h-screen w-screen;
+    }
+    .nav__mobile__links__active {
+        @apply visible flex justify-center
+        items-center gap-8 flex-col
+        h-screen
+        ease-in duration-300;
+    }
+    .nav__mobile__links__not__active {
+        @apply hidden ease-out duration-300;
+    }
+}
+
+body {
+    scroll-behavior: smooth;
+}
