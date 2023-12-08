@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        bot_shadow: "0 4px 60px black",
+        shadow1: "0 4px 60px black",
       },
       screens: {
         'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
