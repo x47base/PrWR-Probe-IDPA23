@@ -561,6 +561,11 @@ video {
   font-weight: 400;
 }
 
+.footer__links a:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+}
+
 main section {
   display: flex;
   justify-content: center;
@@ -604,22 +609,16 @@ main section {
   position: relative;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
-}
-
-.min-h-fit {
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-}
-
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
 }
 
 .min-w-full {
@@ -668,14 +667,9 @@ main section {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -696,10 +690,6 @@ main section {
 
 .p-4 {
   padding: 1rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
 }
 
 .text-left {
@@ -724,14 +714,14 @@ main section {
   line-height: 2.5rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -740,10 +730,6 @@ main section {
 
 .font-extrabold {
   font-weight: 800;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .font-semibold {
@@ -762,14 +748,6 @@ body {
 @media (min-width: 240px) {
   .xs\:p-2 {
     padding: 0.5rem;
-  }
-
-  .xs\:p-1 {
-    padding: 0.25rem;
-  }
-
-  .xs\:p-3 {
-    padding: 0.75rem;
   }
 
   .xs\:p-4 {
@@ -794,10 +772,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:m-2 {
-    margin: 0.5rem;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -806,74 +780,12 @@ body {
     display: none;
   }
 
-  .md\:w-56 {
-    width: 14rem;
-  }
-
-  .md\:w-72 {
-    width: 18rem;
-  }
-
-  .md\:w-64 {
-    width: 16rem;
-  }
-
-  .md\:w-96 {
-    width: 24rem;
-  }
-
-  .md\:w-\[56rem\] {
-    width: 56rem;
-  }
-
-  .md\:w-\[54rem\] {
-    width: 54rem;
-  }
-
-  .md\:w-\[52rem\] {
-    width: 52rem;
-  }
-
-  .md\:w-\[46rem\] {
-    width: 46rem;
-  }
-
-  .md\:w-max {
-    width: -moz-max-content;
-    width: max-content;
-  }
-
-  .md\:w-screen {
-    width: 100vw;
-  }
-
-  .md\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
-  .md\:min-w-full {
-    min-width: 100%;
-  }
-
-  .md\:max-w-screen-md {
-    max-width: 768px;
-  }
-
-  .md\:p-\[0\.875rem\] {
-    padding: 0.875rem;
-  }
-
   .md\:p-4 {
     padding: 1rem;
   }
 
-  .md\:p-64 {
-    padding: 16rem;
-  }
-
-  .md\:p-8 {
-    padding: 2rem;
+  .md\:p-\[0\.875rem\] {
+    padding: 0.875rem;
   }
 }
 
