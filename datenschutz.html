@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./dist/output.css" rel="stylesheet">
+        <script src="./scripts/nav.js" defer></script>
+        <title>Römische Wirtschaft - Home</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav__bar
+                hidden md:flex justify-between items-center
+                p-1 xs:p-2 xs2:p-3 sm:p-3 md:p-[0.875rem] lg:p-4
+                bg-white">
+                <a href="/" target="_self" class="brand">Römische Wirtschaft</a>
+                <div class="nav__links
+                flex flex-row gap-4">
+                    <a href="./index.html" target="_self">Home</a>
+                    <a href="./innenhandel.html" target="_self">Innenhandel</a>
+                    <a href="./aussenhandel.html" target="_self">Aussenhandel</a>
+                </div>
+            </nav>
+            <nav id="nav-mobile" class="nav__mobile
+                flex md:hidden flex-col
+                p-4
+                bg-white">
+                <div class="flex flex-row justify-between">
+                    <a href="/" target="_self" class="brand">Römische Wirtschaft</a>
+                    <button id="mobile-nav-button" type="button" class="nav__mobile__button justify-center items-center align-middle text-2xl font-bold">&#9776;</button>
+                </div>
+                <div id="mobile-nav-links" class="nav__mobile__links
+                flex-column gap-4
+                nav__mobile__links__not__active">
+                    <a href="./index.html" target="_self">Home</a>
+                    <a href="./innenhandel.html" target="_self">Innenhandel</a>
+                    <a href="./aussenhandel.html" target="_self">Aussenhandel</a>
+                </div>
+            </nav>
+        </header>
+
+        <main id="main-container" class="flex flex-col">
+            <div id="welcome" class="
+            relative overflow-hidden bg-cover bg-no-repeat
+            xs:p-4 xs2:p-6 sm:p-10 md:p-12 text-center
+            shadow-lg
+            "
+            style="background-image: url('https://image.geo.de/32641046/t/c4/v2/w1440/r1.5/-/rom-i-0067784773h.jpg'); height: 38rem">
+                <div class="items-center justify-center">
+                    <section class="impressum
+                    flex flex-col min-w-full text-left
+                    p-4 xs:p-4 sm:p-4 md:p-6
+                    hyphens-auto bg-white rounded-xl bg-opacity-75">
+                        <span class="font-extrabold text-4xl text-neutral-800 opacity-100">Datenschutz</span>
+                        <span class="text-xl font-semibold pt-4">Datenerhebung und -verwendung:</span>
+                        <p class="text-base">
+                            Keinerlei personenbezogene Daten werden im Rahmen dieser Gruppenarbeit erhoben.
+                        </p>
+                        
+                        <span class="text-xl font-semibold pt-4">Kommunikation:</span>
+                        <p class="text-base">
+                            Jegliche Kommunikation im Zusammenhang mit der Gruppenarbeit erfolgt über Email an den Schöpfer der Website welchen man durch den Kontakt Link in der Fusszeile kontaktieren kann.
+                        </p>
+
+                        <span class="text-xl font-semibold pt-4">Externe Ressourcen:</span>
+                        <p class="text-base">
+                            <strong>** Abändern</strong>
+                            Falls externe Ressourcen oder Links genutzt werden, überprüfen Sie bitte deren Datenschutzrichtlinien. Wir übernehmen keine Verantwortung für Datenschutzpraktiken außerhalb unseres direkten Einflussbereichs.
+                        </p>
+
+                        <span class="text-xl font-semibold pt-4">Fragen und Kontakt:</span>
+                        <p class="text-base">
+                            Bei Fragen kontaktieren Sie bitte den Schöpfer der Website durch den Kontakt Link in der Fusszeile.  
+                        </p>
+                    </section>
+                </div>
+            </div>
+
+        </main>
+
+        <footer id="footer-container" class="flex flex-col items-center
+        p-1 xs:p-2 xs2:p-3 sm:p-3 md:p-[0.875rem] lg:p-4
+            bg-gray-100">
+            <div class="footer__links
+                flex flex-wrap gap-4
+                mb-2">
+                <a href="./datenschutz.html" target="_self">Datenschutz</a>
+                <a href="./impressum.html" target="_self">Impressum</a>
+                <a href="mailto:samuel.spink@student.ksh.ch" target="_self">Kontakt</a>
+            </div>
+            <span class="text-xs">Samuel Spink &copy; 2023</span>
+        </footer>
+    </body>
+</html>
