@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "dev": "npx tailwindcss -i ./src/style.css -o ./src/dist/output.css --watch",
+        "deploy": "gh-pages -d src"
+    },
+    "dependencies": {
+        "gh-pages": "^6.1.0"
+    }
+}
