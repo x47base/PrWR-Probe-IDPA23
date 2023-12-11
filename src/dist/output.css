@@ -608,6 +608,9 @@ main section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
 
 .mediumCard {
@@ -621,11 +624,27 @@ main section {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
 
 @media (min-width: 768px) {
   .mediumCard {
+    max-width: 38rem;
     flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mediumCard {
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .mediumCard {
+    max-width: 38rem;
   }
 }
 
