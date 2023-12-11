@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-    /* Main & Home*/
     .brand {
         @apply text-2xl font-bold;
     }
@@ -54,8 +53,30 @@
     .mediumCard .cardText {
         @apply font-light text-base;
     }
-    
-    /* Impressum */
+
+    .textContainer{
+        @apply flex flex-col
+        justify-center items-center gap-4;
+    }
+    .text{
+        @apply flex flex-col
+        w-fit m-2 sm:w-[36rem] md:w-[48rem] lg:w-[58rem] xl:w-[64rem]
+        transition-all duration-300;
+    }
+    .textContainer .beforeAfterContainer {
+        @apply flex flex-col
+        ;
+    };
+    .textContainer .beforeAfterContainer .afterbefore {
+        @apply flex flex-col md:grid md:grid-cols-[4rem,auto] hyphens-auto;
+    }
+    .afterbeforeTitle {
+        @apply font-semibold;
+    }
+}
+
+html {
+    scroll-behavior: smooth;    
 }
 
 body {
