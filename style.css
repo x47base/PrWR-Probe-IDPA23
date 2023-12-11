@@ -32,9 +32,37 @@
         @apply hidden ease-out duration-300;
     }
 
+    .cardContainer {
+        @apply flex flex-wrap
+        justify-center items-center;
+    }
+    .mediumCard {
+        @apply flex flex-col md:flex-row
+        gap-6 max-w-[38rem] p-4
+        shadow-lg rounded-2xl
+        items-center;
+    }
+    .mediumCard .cardInfoContainer {
+        @apply flex flex-col
+        gap-4
+        hyphens-auto;
+    }
+    .mediumCard .cardTitle {
+        @apply font-semibold text-lg;
+    }
+    .mediumCard .cardText {
+        @apply font-light text-base;
+    }
+    
     /* Impressum */
 }
 
 body {
     scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+    .pagestart-image {
+        height: 38rem
+    }
 }
