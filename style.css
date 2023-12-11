@@ -34,13 +34,14 @@
 
     .cardContainer {
         @apply flex flex-wrap
-        justify-center items-center;
+        justify-center items-center transition-all duration-300;
     }
     .mediumCard {
         @apply flex flex-col md:flex-row
-        gap-6 max-w-[38rem] p-4
+        gap-6 max-w-[38rem] md:max-w-[38rem] lg:max-w-[32rem] xl:max-w-[38rem] p-4
         shadow-lg rounded-2xl
-        items-center;
+        items-center
+        transition-all duration-300;
     }
     .mediumCard .cardInfoContainer {
         @apply flex flex-col
