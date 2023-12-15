@@ -74,6 +74,19 @@
     .afterbeforeTitle {
         @apply font-semibold;
     }
+
+    .contactForm {
+        @apply flex flex-col gap-2;
+    }
+    .contactForm input,
+    textarea {
+        @apply p-2
+        shadow-lg rounded-lg;
+    }
+    .contactForm button {
+        @apply 
+        text-lg font-semibold;
+    }
 }
 
 html {

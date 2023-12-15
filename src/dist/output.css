@@ -737,6 +737,27 @@ main section {
   font-weight: 600;
 }
 
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contactForm input,
+    textarea {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.contactForm button {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
 .visible {
   visibility: visible;
 }
@@ -795,10 +816,6 @@ main section {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
 }
 
 .justify-self-center {
