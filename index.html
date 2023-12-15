@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="de">
     <head>
+        <!-- Meta -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Stylesheet Bindings -->
         <link href="./dist/output.css" rel="stylesheet">
+        
+        <!-- Script Bindings -->
         <script src="./scripts/nav.js" defer></script>
+        <script src="./scripts/slider.js" defer></script>
+
         <title>Römische Wirtschaft - Home</title>
     </head>
     <body>
@@ -60,8 +67,24 @@
 
                 <div class="cardContainer flex flex-wrap
                 gap-6 md:gap-4 hyphens-auto">
+
+
                     <div class="mediumCard">
-                        <img alt="" src="./images/card-icons/heutigerStand.png" style="height:8.125rem" />
+                        <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Amphorae.jpg/330px-Amphorae.jpg" style="height:8.125rem; width: 8.125rem" class="rounded-full" />
+                        <div class="cardInfoContainer">
+                            <span class="cardTitle">Was wurde damals gehandelt?</span>
+                            <p class="cardText">
+                                Der römische Innenhandel war ein wesentlicher Bestandteil der Wirtschaft im Römischen Reich. Das Römische Reich hielt sich so lange, da es über ein überaus gut ausgebautes Straßen -und Wasserwegenetz verfügte. Städte wie Rom, Alexandria und Antiochia waren bedeutende Handelszentren, in denen eine Vielzahl von Gütern gehandelt worden sind, darunter Lebensmittel wie Getreide, Olivenöl und Wein, aber auch Luxusgüter wie Seide, Gewürze und Edelsteine. 
+
+                                Der Austausch von Waren wurde auf Märkten und speziellen Handelsplätzen wie auf den Foren (Forum) organisiert und durch Zusammenkünfte wie Gilden und Finanzinstitutionen unterstützt. Die Regierung spielte eine aktive Rolle im Handel, indem sie ihn regulierte, besteuerte und lenkte wie auch ein wenig beeinflusste. 
+
+                                Der Handel im Römischen Reich war nicht nur ökonomisch wichtig, sondern ermöglichte auch einen starken kulturellen Austausch zwischen verschiedenen Regionen des Reiches und anderen Zivilisationen. Diese Vielfalt an Waren und Ideen trug zur Entwicklung und zum Wachstum des Römischen Reiches bei, während sie gleichzeitig seine Stabilität und seinen Reichtum unterstützte. <a href="./handel.html" class="font-semibold" style="color:rgb(30 58 138 / 1);">Mehr &#8594;</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mediumCard">
+                        <img alt="" src="./images/card-icons/heutigerStand.png" style="height:8.125rem;" />
                         <div class="cardInfoContainer">
                             <span class="cardTitle">Wo stehen wir heute im Vergleich?</span>
                             <p class="cardText">
@@ -70,15 +93,28 @@
                         </div>
                     </div>
 
-                    <div class="mediumCard">
-                        <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Amphorae.jpg/330px-Amphorae.jpg" style="height:8.125rem" class="rounded-full" />
-                        <div class="cardInfoContainer">
-                            <span class="cardTitle">Was wurde damals gehandelt?</span>
-                            <p class="cardText">
-                                Der römische Innenhandel bestand aus Lebensmitteln wie Weizen, Öl, Fleisch und weiterem. war in vielen Aspekten anders als unsere moderne Wirtschaft. Es ist wichtig, die Unterschiede und Ähnlichkeiten zwischen der römischen Wirtschaft und der heutigen Weltwirtschaft zu betrachten. <a href="./handel.html" class="font-semibold" style="color:rgb(30 58 138 / 1);">Mehr &#8594;</a>
+                    <div class="
+                    @apply flex flex-col md:grid md:grid-cols-[17rem,auto]
+                     sm:max-w-[36rem] md:max-w-[48rem] lg:max-w-[58rem] xl:max-w-[64rem]
+                    md:min-h-[10rem]
+                    shadow-none
+                    items-center
+                    transition-all duration-300">
+                        <div class="cardSliderContainer">
+                            <img id="sliderimage" alt="Römisches Reich Veränderung" src="./images/slider/0.gif" style="height: 12.1875rem; width: 12.1875rem;"/>
+                            <input id="slider" type="range" style="width: 100%" min=1 max="19" onchange="">
+                        </div>
+                        <div class="flex flex-col
+                        gap-4
+                        hyphens-auto">
+                            <span class="font-semibold text-lg">Veränderung des römischen Reiches mit der Zeit</span>
+                            <p class="font-light text-base">
+                                Hier wird ein Referenz-Zeitbild von der Ausdehnung des römischen Reiches gezeigt.
+                                Je älter und grösser das Reich wird, desto schneller sieht man den Anfang des Ende.
                             </p>
                         </div>
                     </div>
+
                 </div>
             </section>     
         </main>
