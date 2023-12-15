@@ -36,9 +36,10 @@
         justify-center items-center transition-all duration-300;
     }
     .mediumCard {
-        @apply flex flex-col md:flex-row
-        gap-6 max-w-[38rem] md:max-w-[38rem] lg:max-w-[32rem] xl:max-w-[38rem] p-4
-        shadow-lg rounded-2xl
+        @apply flex flex-col md:grid md:grid-cols-[8.5rem,auto]
+        gap-6 sm:max-w-[36rem] md:max-w-[48rem] lg:max-w-[58rem] xl:max-w-[64rem]
+        md:min-h-[10rem]
+        shadow-none
         items-center
         transition-all duration-300;
     }

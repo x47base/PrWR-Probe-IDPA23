@@ -613,36 +613,41 @@ main section {
 
 .mediumCard {
   display: flex;
-  max-width: 38rem;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
 }
 
+@media (min-width: 640px) {
+  .mediumCard {
+    max-width: 36rem;
+  }
+}
+
 @media (min-width: 768px) {
   .mediumCard {
-    max-width: 38rem;
-    flex-direction: row;
+    display: grid;
+    min-height: 10rem;
+    max-width: 48rem;
+    grid-template-columns: 8.5rem auto;
   }
 }
 
 @media (min-width: 1024px) {
   .mediumCard {
-    max-width: 32rem;
+    max-width: 58rem;
   }
 }
 
 @media (min-width: 1280px) {
   .mediumCard {
-    max-width: 38rem;
+    max-width: 64rem;
   }
 }
 
@@ -752,6 +757,10 @@ main section {
   display: none;
 }
 
+.h-\[16rem\] {
+  height: 16rem;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -784,6 +793,18 @@ main section {
   gap: 1rem;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -791,6 +812,10 @@ main section {
 .hyphens-auto {
   -webkit-hyphens: auto;
           hyphens: auto;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-xl {
@@ -966,6 +991,10 @@ body {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:p-12 {
