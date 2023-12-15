@@ -59,6 +59,10 @@
         @apply flex flex-col
         justify-center items-center gap-4;
     }
+    #sliderimage {
+        @apply drop-shadow-2xl;
+    }
+
     .text{
         @apply flex flex-col
         w-fit m-2 sm:w-[36rem] md:w-[48rem] lg:w-[58rem] xl:w-[64rem]
@@ -73,6 +77,11 @@
     }
     .afterbeforeTitle {
         @apply font-semibold;
+    }
+
+    .cardSliderContainer {
+        @apply flex flex-col
+        max-w-[12.1875rem] gap-2;
     }
 
     .contactForm {
